@@ -1,6 +1,9 @@
-// src/pages/WOLandingPage.jsx
+import React from 'react';
+import { Calendar, Heart, Star, Phone, CheckCircle } from 'lucide-react';
 import PortfolioGallery from '../components/PortfolioGallery.jsx';
 import TestimonialCarousel from '../components/TestimonialCarousel.jsx';
+
+// ... sisa kode landing page yang sudah Pak Haji buat ...
 const WOLandingPage = () => {
   return (
     <div className="min-h-screen bg-stone-50 text-stone-800 font-sans overflow-x-hidden">
