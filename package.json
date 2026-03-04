@@ -1,1 +1,16 @@
-
+{
+  "name": "wo-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://username-github-anda.github.io/nama-repo-anda",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  // ... (kode lainnya biarkan saja)
+}
