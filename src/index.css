@@ -17,14 +17,22 @@
   }
 
   body {
-    @apply bg-stone-50 text-stone-800;
+    /* Gunakan !important agar Tailwind menang melawan sisa cache browser */
+    @apply bg-stone-50 text-stone-800 !important;
     margin: 0;
-    /* Memastikan warna background muncul meski jaringan lambat */
+    /* Memberikan tinggi minimal agar konten tidak menciut menjadi 0px */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: #fafaf9; 
   }
 }
 
-/* 4. Utility Tambahan untuk Animasi Halus */
+/* 4. Utility Tambahan untuk Animasi & Responsif */
 html {
   scroll-behavior: smooth;
+}
+
+#root {
+  width: 100%;
 }
