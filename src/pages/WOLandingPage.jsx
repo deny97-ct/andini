@@ -92,6 +92,18 @@ const WOLandingPage = () => {
         <p>&copy; 2026 EverAfter Wedding Organizer. All rights reserved.</p>
       </footer>
 
+      {/* Tombol WhatsApp Floating */}
+      <a 
+        href="https://wa.me/6281234567890?text=Halo%20EverAfter%20WO,%20saya%20tertarik%20berkonsultasi%20untuk%20rencana%20pernikahan%20saya." 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="fixed bottom-8 right-8 z-[100] bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform duration-300 flex items-center justify-center group"
+      >
+        <Phone size={28} fill="currentColor" />
+        <span className="max-w-0 overflow-hidden group-hover:max-w-xs group-hover:ml-3 transition-all duration-500 font-medium whitespace-nowrap">
+          Konsultasi Gratis
+        </span>
+      </a>
     </div>
   );
 };
