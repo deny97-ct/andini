@@ -1,7 +1,6 @@
 // src/pages/WOLandingPage.jsx
 import PortfolioGallery from '../components/PortfolioGallery.jsx';
 import TestimonialCarousel from '../components/TestimonialCarousel.jsx';
-
 const WOLandingPage = () => {
   return (
     <div className="min-h-screen bg-stone-50 text-stone-800 font-sans overflow-x-hidden">
