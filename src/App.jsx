@@ -1,8 +1,10 @@
 import React from 'react'
-import WOLandingPage from './pages/WOLandingPage'
+import WOLandingPage from './pages/WOLandingPage.jsx'
 
 function App() {
-  return <WOLandingPage />
+  return (
+    <WOLandingPage />
+  )
 }
 
 export default App
