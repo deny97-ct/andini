@@ -89,12 +89,12 @@ const WOLandingPage = () => {
 
       {/* Footer */}
       <footer className="py-8 text-center text-stone-500 text-sm border-t border-stone-200">
-        <p>&copy; 2026 EverAfter Wedding Organizer. All rights reserved.</p>
+        <p>&copy; 2026 EverAfter Wedding Organizer. Support By Kangjoe. All rights reserved.</p>
       </footer>
 
       {/* Tombol WhatsApp Floating */}
       <a 
-        href="https://wa.me/6281234567890?text=Halo%20EverAfter%20WO,%20saya%20tertarik%20berkonsultasi%20untuk%20rencana%20pernikahan%20saya." 
+        href="https://wa.me/6282120231119?text=Halo%20EverAfter%20WO,%20saya%20tertarik%20berkonsultasi%20untuk%20rencana%20pernikahan%20saya." 
         target="_blank" 
         rel="noopener noreferrer"
         className="fixed bottom-8 right-8 z-[100] bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform duration-300 flex items-center justify-center group"
