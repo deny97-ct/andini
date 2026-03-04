@@ -1,8 +1,10 @@
 // src/pages/WOLandingPage.jsx
 import React from 'react';
 import { Calendar, Heart, Star, Phone, CheckCircle } from 'lucide-react';
-import PortfolioGallery from '../components/PortfolioGallery';
-import TestimonialCarousel from '../components/TestimonialCarousel';
+
+// Penambahan ekstensi .jsx untuk memastikan Vercel dapat me-resolve module
+import PortfolioGallery from '../components/PortfolioGallery.jsx';
+import TestimonialCarousel from '../components/TestimonialCarousel.jsx';
 
 const WOLandingPage = () => {
   return (
