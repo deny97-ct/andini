@@ -3,11 +3,23 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./src/pages/**/*.{js,ts,jsx,tsx}",
-    "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        serif: ['"Playfair Display"', 'serif'],
+        sans: ['Inter', 'sans-serif'],
+      },
+      colors: {
+        rose: {
+          700: '#be123c',
+        },
+        stone: {
+          50: '#fafaf9',
+          800: '#292524',
+        }
+      }
+    },
   },
   plugins: [],
 }
